@@ -4,11 +4,11 @@
 	.container {
 		display: grid;
 		grid-auto-rows: 70px;
-		height: 80vh;
+		// height: 80vh;
 		overflow: auto;
 		align-items: center;
 		position: relative;
-		padding-right: 50px;
+		// padding-right: 50px;
 
 		@include custom-scroll();
 
@@ -54,10 +54,10 @@
 					outline: none;
 					align-items: center;
 					grid-auto-flow: column;
-					grid-template-columns: 50px 1fr 100px;
+					grid-template-columns: 50px 1fr 60px;
 					padding: 4px;
 					font-size: 16px;
-					color: #3d4762;
+					// color: #3d4762;
 					font-weight: 500;
 
 					.avatar {
@@ -85,7 +85,7 @@
 						font-weight: 500;
 
 						&:hover {
-							color: #eea92a;
+							// color: #eea92a;
 						}
 					}
 

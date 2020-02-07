@@ -1,5 +1,7 @@
 <div class="training-validation-container">
-    <mat-spinner *ngIf="isLoading || !step1Data"></mat-spinner>
+    <div *ngIf="true" class="test">
+        <mat-spinner *ngIf="true"></mat-spinner>
+    </div>
     <mat-tab-group [selectedIndex]="currentSelectedStep" *ngIf="!isLoading && step1Data">
         <mat-tab label="GENERAL" [disabled]="true">
             <app-step-training-general *ngIf="currentSelectedStep === 0" [stepTrainingGeneralData]="step1Data" (stepSelectionEmitter)="onStepSelectionEmitter($event)"></app-step-training-general>

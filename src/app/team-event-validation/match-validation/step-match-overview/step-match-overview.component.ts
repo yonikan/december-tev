@@ -18,7 +18,7 @@ export class StepMatchOverviewComponent implements OnInit {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log('changes: ', changes);
+    // console.log('changes: ', changes);
   }
 
   nextStep() {

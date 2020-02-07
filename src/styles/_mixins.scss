@@ -200,13 +200,18 @@
 
 @mixin team-event-section() {
   text-align: center;
-  margin: 55px 0;
+  // margin: 55px 0;
 
   h3 {
       font-size: 40px;
       margin: 35px 0 10px;
       text-transform: capitalize;
       color: #3d4762;
+
+      @media (max-width: $media-query-sm) {
+        font-size: 30px;
+        margin: 20px 0 10px;
+      }
   }
 
   p {
@@ -214,6 +219,10 @@
       color: #96a1ae;
       margin: 0;
       margin-bottom: 20px;
+
+      @media (max-width: $media-query-sm) {
+        font-size: 17px;
+      }
   }
 }
 

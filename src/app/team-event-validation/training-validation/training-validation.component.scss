@@ -4,6 +4,12 @@
 :host {
     .training-validation-container {
         @include team-event-container;
+
+        .test {
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;;
+        }
     }
 }
 

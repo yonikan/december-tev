@@ -1,10 +1,8 @@
 <div class="tags-container">
-  <div class="title">
-    <h3>session theme</h3>
-    <p>
-      Add session theme
-    </p>
-  </div>
+  <h3>session theme</h3>
+  <p>
+    Add session theme
+  </p>
   <mat-form-field class="example-chip-list" appearance="outline">
           <mat-chip-list #chipList aria-label="Fruit selection">
             <mat-chip *ngFor="let teamEventTag of teamEventTags" [selectable]="selectable" [removable]="removable" (removed)="remove(teamEventTag)">

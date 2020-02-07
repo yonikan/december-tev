@@ -41,7 +41,8 @@ export class TagsComponent implements OnInit {
 
 
   ngOnChanges(change) {
-    if (change.stepData && this.stepData) {
+    console.log('change: ', change);
+    if ((change.stepData !== undefined) && this.stepData) {
       this.filteredTags = this.tagCtrl.valueChanges
       .pipe(
         startWith(null),
